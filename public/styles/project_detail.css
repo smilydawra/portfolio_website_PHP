@@ -1,0 +1,138 @@
+<style>
+
+h1.main_heading{
+	margin-top: 0;
+}
+
+.back{
+	margin-top: 13%;
+}
+
+.back a{
+
+	color: #000;
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 9px;
+	background-color: #fae666;
+	font-size: 1em;
+	font-weight: 700;
+}
+
+.back a:hover{
+	background-color: #d6c556;
+}
+
+div.login_css{
+  padding: 1px;
+	position: absolute;
+	top: 1px;
+	right: 17%;
+}
+
+.login_css a{
+	text-decoration: none;
+	color: #469;
+	font-weight: 700;
+}
+
+.login_css a:hover{
+	text-decoration: underline;
+}
+
+.login_css span{
+	color: #FC3C91;
+}
+
+  #blog1 img,
+  #blog2 img{
+	float: left;
+  }
+
+  div#blog1 p,
+  div#blog2 p{
+	opacity: 0;
+	padding: 10px;
+  }
+
+  strong{
+	opacity: 0;
+  }
+
+  div#blog1:hover p,
+  div#blog2:hover p,
+  strong{
+	opacity: 1;
+	text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+  }
+
+  div#blog1:hover,
+  div#blog2:hover{
+	border-right: 1px solid #ccc;
+/*        border-bottom: 1px solid #ccc;*/
+  }
+
+  strong{
+	text-align: center;
+	font-size: 1.6em;
+	background-color: #FCBC51;
+  }
+
+  .containerflex{
+	margin:0 10%;
+	display: block;
+	margin-bottom: 12%;
+	position: relative;
+  }
+
+  .containerflex div.projectImage{
+/*        border: 1px solid #000;*/
+	background-color: #fff;
+	height: 280px;
+	padding: 10px;
+  }
+
+  #box11{
+	order: 3;
+	flex-grow: 1;
+	background-image: url(images/tech.jpg);
+	margin: 0 10% 0 0;
+  }
+
+  table{
+	border-collapse: collapse;
+	width: 680px;
+  }
+
+  th{
+	width: 170px;
+  }
+
+  td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+  }
+
+  tr:nth-child(even) {
+	background-color: #dddddd;
+  }
+
+  #comments{
+	margin-top: 20px;
+  }
+
+  fieldset{
+	width: 650px;
+  }
+
+  #form input[type="submit"],
+  #form input[type="reset"],
+  #form input[type="button"]{
+
+	padding: 6px;
+	background-color: #ccc;
+	font-weight: bold;
+  }
+
+</style>

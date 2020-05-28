@@ -1,0 +1,100 @@
+<style>
+
+.login_css span{
+	color: #FC3C91;
+}
+
+
+  table{
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 90%;
+	margin-bottom: 20px;
+	border-spacing: 5px;
+  }
+
+  table,td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+  }
+
+  address{
+	margin-left: 13px;
+  }
+
+
+
+  fieldset{
+	border: none;
+  }
+
+
+  #first_form label{
+	width: 120px;
+	display: block;
+	float: left;
+	clear: both;
+	text-align: left;
+	margin-left: 1px;
+  }
+
+  textarea#comments {
+	width: 200px;
+  }
+
+  #first_form input[type="text"],
+  #first_form input[type="password"],
+  #first_form input[type="email"],
+  #first_form input[type="number"],
+  #first_form input[type="date"],
+  #first_form input[list="country"],
+  #first_form input[type="tel"]{
+	border: 1px solid #004;
+	width: 200px;
+	height: 20px;
+	background-color: #efe;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 0.8em;
+	font-weight: bold;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	box-shadow: inset 2px 2px 4px rgba(0,0,0,0.1);
+  }
+
+  #first_form input:not([type="radio"]):not([type="checkbox"]):hover{
+	background-color: #ccc;
+	box-shadow: 0 0 5px #cfc;
+  }
+
+  #first_form input:focus{
+	background-color: #ccc;
+  }
+
+  #first_form input + label{
+	float: none;
+	display: inline;
+	width: auto;
+  }
+
+  #first_form input{
+	width: auto;
+  }
+
+  #first_form input[type="submit"],
+  #first_form input[type="reset"],
+  #first_form input[type="button"]{
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+	padding: 6px;
+	background-color: #ccc;
+	font-weight: bold;
+  }
+
+  #first_form input[type="submit"]:hover,
+  #first_form input[type="reset"]:hover,
+  #first_form input[type="button"]:hover{
+	background-color: #ccc;
+  }
+
+
+</style>

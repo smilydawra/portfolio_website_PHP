@@ -1,0 +1,55 @@
+<style>
+
+  .polygon:hover{
+	opacity: 1;
+	text-decoration: underline;
+	color: #000;
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+  }
+
+  strong{
+	background-color: #fff;
+	padding: 5px;
+	opacity: 1
+  }
+
+  strong a{
+	text-decoration: none;
+	color:#000;
+  }
+
+  .line_horizontal{
+	width: 118px;
+	height: 0px;
+	border: 1px solid #666;
+	margin: 0 auto;
+  }
+
+  .line2{
+	position: absolute;
+	top: 417px;
+	left: 50%;
+  }
+
+  .line3{
+	position: absolute;
+	top:590px;
+	right: 50%;
+  }
+
+  .line4{
+	position: absolute;
+	top:810px;
+	left: 50%;
+  }
+
+  .line5{
+	position: absolute;
+	top:990px;
+	right: 50%;
+  }
+
+
+
+</style>

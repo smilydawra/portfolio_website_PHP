@@ -1,0 +1,78 @@
+<style>
+
+  fieldset{
+  border: none;
+  /* box-shadow: 1px 2px 3px rgba(0,0,0,0.5);
+  background: linear-gradient(#fff,#eee); */
+  margin: 0;
+  width: 100%;
+  }
+
+  #first_form label{
+  width: 160px;
+  display: block;
+  float: left;
+  clear: both;
+  text-align: left;
+  margin-left: 1px;
+  font-weight: 700;
+  font-size: 1.2em;
+  }
+
+  #first_form input[type="email"],
+  #first_form input[type="text"],
+  #first_form input[type="password"]{
+	border: none;
+    border-bottom: 2px solid #ddd;
+  	width: 98%;
+  	height: 34px;
+  	background-color: transparent;
+  	font-family: Tahoma, Arial, sans-serif;
+  	font-size: 1.1em;
+  	-webkit-transition: all .3s ease-in-out;
+  	transition: all .3s ease-in-out;
+  	margin-top: 3px;
+  	padding: 4px;
+  	padding-bottom: 5px;
+    }
+
+  .col-half{
+	width: 43%;
+	float: left;
+	padding: 30px;
+  }
+
+  h2{
+	  color: #FC3C91;
+	  text-align: center;
+  }
+
+  p.buttons{
+	margin-top: 30px;
+	margin-bottom: 30px;
+  }
+
+  p.buttons input{
+	background-color: #469;
+	border: none;
+	color: #fff;
+	padding: 8px;
+	font-size: 1.3em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	width: 100%;
+	height: 50px;
+	border-radius: 40px;
+	-webkit-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+  }
+
+  p.buttons input:hover{
+	  cursor: pointer;
+	  color: #FCBC51;
+	  opacity: 1;
+	  font-size: 1.3em;
+	  -webkit-transform: scale(1.05);
+	  transform: scale(1.05);
+  }
+</style>
